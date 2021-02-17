@@ -3,3 +3,6 @@ if ('serviceWorker' in navigator) {
                 navigator.serviceWorker.register('/navkar/sw.js');
             });
         }
+        else {
+  console.log('Service workers are not supported.');
+}
