@@ -4,8 +4,8 @@
   "theme_color": "#f32121",
   "background_color": "#b7dfff",
   "display": "standalone",
-  "Scope": "/navkar",
-  "start_url": "/navkar",
+  "Scope": "/navkar/",
+  "start_url": "/navkar/",
   "icons": [
     {
       "src": "navkar/images/icons/icon-72x72.png",
