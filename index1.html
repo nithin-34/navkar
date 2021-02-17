@@ -40782,7 +40782,7 @@
      */
      var element = document.createElement('a');
   element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(JSON.stringify(prac)));
-  element.setAttribute('download', 'testing_file.txt');
+  element.setAttribute('download', name+'_'+date+'.txt');
 
   element.style.display = 'none';
   document.body.appendChild(element);
